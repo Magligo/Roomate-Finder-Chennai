@@ -1,4 +1,4 @@
-# 🏠 Chennai Roommate Finder
+# 🏠 Chennai Room Finder
 
 A full-stack modern web application designed to help users find and post rooms or roommates in Chennai with ease. Secure, fast, and user-friendly.
 
