@@ -85,7 +85,7 @@ const UploadRoom = () => {
                 <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-100">
                     <div className="bg-primary-600 p-8 text-white relative">
                         <h2 className="text-3xl font-bold mb-2">List Your Room</h2>
-                        <p className="text-primary-100">Fill in the details to find your perfect roommate.</p>
+                        <p className="text-primary-100">Fill in the details to find your perfect room.</p>
                         <div className="absolute top-8 right-8 bg-primary-500/30 p-4 rounded-full">
                             <PlusCircle size={40} className="text-white/80" />
                         </div>
@@ -223,7 +223,7 @@ const UploadRoom = () => {
                                     <textarea
                                         rows="4"
                                         className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-primary-500 outline-none resize-none"
-                                        placeholder="Tell us about the house, amenities, and what kind of roommate you are looking for..."
+                                        placeholder="Tell us about the house, amenities, and what kind of space you are offering..."
                                         value={formData.description}
                                         onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                                         disabled={loading}

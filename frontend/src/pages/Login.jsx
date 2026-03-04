@@ -37,7 +37,7 @@ const Login = () => {
                     <div className="mb-10 text-center">
                         <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 text-2xl font-bold text-white shadow-lg bg-primary-600 rounded-xl shadow-primary-200">RM</div>
                         <h2 className="text-3xl font-extrabold text-gray-900">Welcome Back</h2>
-                        <p className="mt-2 text-gray-500">Sign in to find your ideal roommate</p>
+                        <p className="mt-2 text-gray-500">Sign in to find your ideal room</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-6">

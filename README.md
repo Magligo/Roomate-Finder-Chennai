@@ -3,44 +3,40 @@
 A full-stack modern web application designed to help users find and post rooms or roommates in Chennai with ease. Secure, fast, and user-friendly.
 
 ---
+# 🏠 Chennai Room Finder
 
-## 🛠 Tech Stack
-
-| Component | Technology |
-| :--- | :--- |
-| **Frontend** | React, Tailwind CSS, Vite |
-| **Backend** | Node.js, Express.js |
-| **Database** | SQLite, Sequelize ORM |
-| **Tools** | Axios, Lucide-React, Multer, JWT |
+A full-stack modern web application designed to help users find and post rooms in Chennai with ease. Secure, fast, and user-friendly.
 
 ---
 
-## ✨ Features
+## 🚀 Features
 
-- 🔐 **Authentication**: Secure Signup and Login using JWT and Bcrypt (password hashing).
-- 🏘️ **Room Posting**: Users can post details about available rooms.
-- 🖼️ **Image Upload**: Multi-image upload support using Multer.
-- 🔍 **Search**: Find rooms based on location, budget, or other preferences.
-- 🗑️ **Management**: Users can delete their own room listings.
-- 📱 **Responsive Design**: Optimized for all screen sizes using Tailwind CSS.
+- **Authentication**: Secure JWT-based login and signup.
+- **Room Postings**: Users can upload room details along with images.
+- **Image Uploads**: Supports multiple image uploads per listing.
+- **Search & Filter**: Find rooms in specific areas like OMR, Velachery, etc.
+- **Manage Rooms**: Edit or delete your own room postings.
 
----
+## 🛠️ Tech Stack
 
-## 🚀 Getting Started
+- **Frontend**: React.js, Tailwind CSS, Vite
+- **Backend**: Node.js, Express.js
+- **Database**: SQLite (via Sequelize ORM)
+- **Authentication**: JSON Web Token (JWT) + Bcryptjs
+- **Image Handling**: Multer
 
-Follow these steps to get the project up and running locally.
+## 📦 Prerequisites
 
-### Prerequisites
+- [Node.js](https://nodejs.org/) installed
+- npm or yarn
 
-- **Node.js** (v16.0.0 or higher)
-- **npm** (v7.0.0 or higher)
+## ⚙️ Setup Instructions
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/Chennai-Roommate-Finder.git
-cd Chennai-Roommate-Finder
-```
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/Chennai-Room-Finder.git
+   cd Chennai-Room-Finder
+   ```
 
 ### 2. Backend Setup
 

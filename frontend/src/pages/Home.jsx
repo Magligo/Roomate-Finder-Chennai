@@ -25,7 +25,7 @@ const Home = () => {
 
                 <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
                     <h1 className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
-                        Find Your Perfect Roommate in <span className="text-primary-400">Chennai</span>
+                        Find Your Perfect Room in <span className="text-primary-400">Chennai</span>
                     </h1>
                     <p className="text-lg md:text-xl mb-10 text-gray-300">
                         Thousands of listings across OMR, Velachery, and all major areas. Browse verified profiles and safe rooms.
